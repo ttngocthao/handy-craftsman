@@ -1,0 +1,126 @@
+nav {
+ background-color: #cfd9e7;
+ position: relative;
+}
+ ul, footer> ul, .contact> ul {
+ display: inline-box;
+ padding: 10px 0px;
+}
+.bar li{
+ color: white;   
+}
+ li, footer> li, .contact> li{
+ display: inline;
+ padding: 5px 10px 20px 50px ;
+ font-size: 15pt;
+ letter-spacing: 0.2em;
+}
+footer {
+ margin-top: 100px;
+ color: blue;
+ background-color: #cfd9e7;
+}
+body {
+    margin: auto;
+    width: 1200px;
+    font-family: 'Courgette', cursive;
+    background-color:black;
+    text-align: center;
+    position: relative;
+    top: 50px;
+    height: 1300px;
+}
+.contact {
+    border: 2px solid;
+    color: white;
+    text-align: center;
+    padding: 1px;
+    display: none;
+}
+
+header {
+    background-image: url('https://i.imgur.com/H3YGiZq.jpg');
+    background-size: cover;
+    height: 500px;
+    box-shadow: 5px 5px 10px 3px #888;
+    margin-top: 50px;
+    border: 2px solid white;
+}
+.intro {
+    position: relative;
+    padding: 10px;
+    top: 50px;
+    text-align: center;
+    font-size:1em ;
+    letter-spacing:0.4em;
+    background-color: rgba(255,255,255,0.3);
+    width: 1000px;
+    height:400px;
+    margin: auto;
+    font-family: 'Berkshire Swash', cursive;
+    position: relative;
+    
+}
+.intro h1{
+    position: relative;
+    width: 800px;
+    margin: auto;
+    font-size:3em;
+    border-bottom-style: double;
+    padding-bottom: 10px;
+    margin-top: 100px;
+    margin-top: 40px;
+}
+.intro h3 {
+    width: 500px;
+    position: relative;
+    margin: auto;
+    font-size: 1.5em;
+    border-top-style: double;
+    padding-top:10px;
+}
+.intro h2{
+    font-size: 2em;
+    position: relative;
+}
+#pics img{
+    width: 20%;
+    padding: 8px;
+    background-color: white;
+    box-shadow: 5px 5px 10px 3px #888;
+    margin: 5px;
+}
+
+.para1, .para2 {    
+    line-height: 1.6;
+    font-size: 1.8em;    
+    background-color: rgba(255,255,255,0.3);    
+    word-spacing: 0.3em;
+    padding: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    
+}
+.info {
+    position: relative;
+    margin: auto;
+    top: 40px;
+    padding: 15px;    
+    margin-bottom: 50px;
+    margin-top: 50px;
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSm4EkXRXCCdNoDvKNYbO1QItHpgsFTl8vvCx20ubq9ksJ0ckLw');
+    background-size: cover;
+    box-shadow: 5px 5px 10px 3px #888;
+    border: 2px solid white;
+}
+figure {
+    top: 50px;
+    position: relative;
+}
+
+.zoomIn{
+    width:80%;
+}
+#logo{
+    width: 7%;
+}
