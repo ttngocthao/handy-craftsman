@@ -1,6 +1,7 @@
 nav {
  background-color: #cfd9e7;
  position: relative;
+ font-size: 17pt;
 }
  ul, footer> ul, .contact> ul {
  display: inline-box;
@@ -12,12 +13,14 @@ nav {
  li, footer> li, .contact> li{
  display: inline;
  padding: 5px 10px 20px 50px ;
- font-size: 15pt;
  letter-spacing: 0.2em;
 }
 footer {
  margin-top: 100px;
- color: blue;
+ position: relative;
+ top: 100px;
+ color: gray;
+ font-size: 10pt;
  background-color: #cfd9e7;
 }
 body {
